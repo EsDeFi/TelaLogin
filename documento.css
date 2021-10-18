@@ -1,0 +1,153 @@
+#titulo{
+text-align: center;
+background-color:rgb(245, 245, 245, 0.8);
+}
+
+#menu ul {
+    width: 100%;
+    padding:5px;
+    margin:0px;
+    background-color: whitesmoke;
+    color: rgb(128, 128, 0);
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size:large; 
+    font-weight: bold;
+    list-style:none;
+    float:center;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 40px;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    background-color:whitesmoke;
+    color: #6D6D6D;
+    border-bottom:3px solid rgb(128, 128, 0);
+}
+
+#divBusca{
+    display: inline-block;
+}
+
+
+    #textoBusca {
+    border:0px solid #222;
+    background:#EEE;
+    width:260px;
+    height:23px;
+    margin:0 auto;
+    padding:5px 0 5px 5px;
+    float:left; 
+    line-height:36px;
+    }
+
+ #botaoBusca{
+    background: rgb(128, 128, 0);
+    position:relative;
+    border:0px solid #222;
+    color:#FFF; 
+    margin:0 auto;
+    padding:10px;
+    border:0 none;
+    font-size:11px;
+    font-weight:bold;
+    text-transform:uppercase;
+    }
+
+#botaoBusca:hover{
+    background-color: rgb(85, 107, 47, 0.3);
+}
+ 
+a{
+    color: rgb(128, 128, 0);
+    text-decoration: none;
+}
+
+img{
+    width:350px;
+}
+
+body{
+
+    background-image: url(https://img.freepik.com/fotos-gratis/borda-de-varias-flores-e-folhas_23-2147760508.jpg?size=626&ext=jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+
+fieldset{
+    width: 300px;
+    margin-left: 100px;
+	margin-right:100px;
+    margin-top: 30px;
+    border-style:none;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: #ece3e3;
+    font-family: sans-serif, Helvetica, arial;
+
+}
+
+.nome label{
+    float:left;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome input{
+    background-color:#EEE; 
+    border-radius: 3px;
+    width:250px;
+    height:20px;
+}
+
+.senha label{
+    float:left;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.senha input {
+    background-color: #EEE;
+    border-radius: 3px;
+    width:250px;
+    height:20px;
+}
+
+.botaoLogin{
+    
+    background-image: linear-gradient(110deg,rgb(255, 142, 130),rgb(255, 195, 83));
+    border-radius: 3px;
+    color: black;
+    border-color: #ece3e3;
+    font-weight: lighter;
+    text-shadow: 0px 0px 4px white;
+    font-size: larger;
+    text-decoration: none;
+    width:300px;
+    height:40px;
+
+}
+
+.botaoLogin:hover{
+    background-image: white;
+    text-shadow: 0px 0px 4px
+}
+
+.botaoLogin:active{
+    background-color:whitesmoke;
+}
+
+.textoInfor{
+    text-align:left;
+    font-size: smaller;
+    font-family:Arial, Helvetica, sans-serif;
+}

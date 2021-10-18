@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="documento.css" type="text/css">
+    <title>Login</title>
+</head>
+<center>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">HISTÓRIA</a></li>
+            <li><a href="#">CATÁLOGO</a></li>
+            <li><a href="#">CADASTRO</a></li>
+            <li><a href="#">CONTATO</a></li>
+            <li><a href="#">LOGIN</a></li>
+            <div id="divBusca">
+                    <form action="/search" class="search" method="get">
+                        <input id="textoBusca" name="q" type="text" value="" placeholder="Buscar" />
+                        <input id="botaoBusca" type="submit" value="Ok"/>
+                    </form>
+                    </div>
+              </div>
+        </ul>
+    </nav>
+
+    <div id="titulo">
+    <img src="logo.png" alt="Floral Floricultura e Paisagismo">
+    </div>
+    <form>
+        <fieldset class="login">
+        <div class="nome">
+        <label for="usuario"><strong>Usuário:</strong></label><br>
+        <input type="text" name="usuario" id="usuario" required>
+        </div>
+        <br>
+        <div class="senha">
+        <label for="senha"><strong>Senha:</strong></label><br>
+        <input type="password" name="senha"  id="senha" required></label><br><br>
+        <button class="botaoLogin" type="submit">LOGIN</button><br><br>
+        <div class="textoInfor">
+            Esqueceu sua senha? 
+            <a href="#">Clique aqui!</a><br>
+            Não possui uma conta? 
+            <a href="#">Faça já o seu cadastro!</a></div>
+            </div><br>
+        </fieldset>
+        </form>     
+    </body>
+</center>
+</body>
+</html>
